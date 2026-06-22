@@ -5,8 +5,8 @@ Proyecto final de Programación para Administración de Servicios.
 
 # Scripts incluidos
 
-- usuarios.sh
-    Permite crear, eliminar y modificar usuarios del sistema. Ademas, registra las acciones realizadas y envia notificaciones mediante Telegram
+- usuarios.sh: 
+-   Permite crear, eliminar y modificar usuarios del sistema. Ademas, registra las acciones realizadas y envia notificaciones mediante Telegram
 - respaldo.sh
 - monitoreo.sh
 - servicios.sh
