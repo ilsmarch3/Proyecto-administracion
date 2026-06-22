@@ -1,1 +1,22 @@
-TOKEN=
+# Datos del bot de Telegram
+TOKEN="8685915538:AAFqhLJmycG70wIDE71q3nkbOa2UIe43fQg"
+CHAT_ID="812764371"
+
+# Umbrales de monitoreo
+UMBRAL_CPU=70
+UMBRAL_DISCO=70
+
+# Servicios a monitorear
+SERVICIOS="ssh apache2 cron"
+
+# Hosts de red
+HOSTS="8.8.8.8 google.com"
+
+# Puertos críticos
+PUERTOS="22 80 443"
+
+# Directorios a respaldar
+DIRECTORIOS="/home/ilse/Documentos /home/ilse/Descargas"
+
+# Archivo de log
+LOG="/var/log/proyecto.log"
