@@ -19,4 +19,4 @@ PUERTOS="22 80 443"
 DIRECTORIOS="/home/ilse/Documentos /home/ilse/Descargas"
 
 # Archivo de log
-LOG="/var/log/proyecto.log"
+LOG="./proyecto.log"
