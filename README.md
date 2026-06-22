@@ -1,7 +1,7 @@
 # Proyecto-administracion
 # Gestor Automatizado de Servicios
 
-Proyecto integrador de Programación para Administración de Servicios.
+Proyecto final de Programación para Administración de Servicios.
 
 # Scripts incluidos
 
