@@ -1,6 +1,6 @@
 # Datos del bot de Telegram
 TOKEN="8685915538:AAFqhLJmycG70wIDE71q3nkbOa2UIe43fQg"
-CHAT_ID="812764371"
+CHAT_ID="8260871501"
 
 # Umbrales de monitoreo
 UMBRAL_CPU=70
