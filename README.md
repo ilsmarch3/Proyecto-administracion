@@ -26,7 +26,7 @@ Proyecto final de Programación para Administración de Servicios.
 # Instalación
 
 ```bash
-git clone <repositorio>
+git clone https://github.com/ilsmarch3/Proyecto-administracion.git
 cd Proyecto-administracion
 chmod +x *.sh
 ```
