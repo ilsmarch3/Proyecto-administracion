@@ -1,5 +1,6 @@
 #!/bin/bash
 
+#Carga la configuracion general del proyecto
 source config.txt
 
 # Función para enviar mensajes a Telegram
@@ -12,13 +13,14 @@ enviar_telegram() {
     -d text="$mensaje" > /dev/null
 }
 
+#Funcion para registrar eventos en el log
 registrar_log() {
     echo "$(date '+%F %T') - $1" >> "$LOG"
 }
 
 while true
 do
-    echo "===== MENU USUARIOS ====="
+    echo "===== MENU DE USUARIOS ====="
     echo "1. Crear usuario"
     echo "2. Eliminar usuario"
     echo "3. Modificar contraseña"
