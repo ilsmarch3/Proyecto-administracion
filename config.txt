@@ -16,7 +16,7 @@ HOSTS="8.8.8.8 google.com"
 PUERTOS="22 80 443"
 
 # Directorios a respaldar
-DIRECTORIOS="/home/ilse/Documentos /home/ilse/Descargas"
+DIRECTORIOS="/home/ilse/Documentos/Hash /home/ilse/Descargas/ciberseguridad"
 
 # Archivo de log
 LOG="./proyecto.log"
