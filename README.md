@@ -50,5 +50,5 @@ CHAT_ID="CHAT_ID"
 
 # Autores
 
-Ilse Alibeth Martinez Chimal
-Daniel Fernandez Mejia
+- Ilse Alibeth Martinez Chimal
+- Daniel Fernandez Mejia
