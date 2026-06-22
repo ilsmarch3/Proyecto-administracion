@@ -8,12 +8,14 @@ archivo="/var/log/inventario_$fecha.txt"
 
 echo "===== INVENTARIO =====" > "$archivo"
 
+#Obtiene informacion del sistema
 echo "Hostname: $(hostname)" >> "$archivo"
 echo "Sistema Operativo: $(lsb_release -d | cut -f2)" >> "$archivo"
 echo "Kernel: $(uname -r)" >> "$archivo"
 
 echo "" >> "$archivo"
 
+#Informacion relacionada con el procesador
 echo "CPU:" >> "$archivo"
 lscpu | grep "Model name" >> "$archivo"
 lscpu | grep "^CPU(s)" >> "$archivo"
@@ -28,6 +30,7 @@ echo "" >> "$archivo"
 echo "Discos:" >> "$archivo"
 df -h >> "$archivo"
 
+#Envia una notificacion a Telegram con un resumen del inventario generado
 resumen="Inventario generado en $(hostname)"
 
 curl -s -X POST \
