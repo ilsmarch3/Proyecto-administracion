@@ -2,9 +2,10 @@
 
 source config.txt
 
+#Revisa cada host en el archivo de configuracion
 for host in $HOSTS
 do
-
+    #Verifica la conectividad mediante ping y luego revisa los puertos especificados
     if ping -c 2 "$host" &>/dev/null; then
 
         abiertos=0
@@ -19,6 +20,7 @@ do
             fi
         done
 
+        #Clasifica el estado del host según la cantidad de puertos abiertos
         if [ $abiertos -eq ${#PUERTOS[@]} ]; then
             estado="Accesible"
 
@@ -30,6 +32,7 @@ do
         fi
 
     else
+        #Notifica si el host no responde al ping
         estado="Sin respuesta"
 
         curl -s -X POST \
