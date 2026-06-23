@@ -15,7 +15,7 @@ do
     echo "Conectando a $host"
 
     #Copia el script al equipo remoto mediante SCP
-    scp "$script" "$host:/tmp/" &>/dev/null
+    scp "$script" "$host:/tmp/"
     
     salida=$(ssh "$host" "bash /tmp/$(basename $script)")
 
