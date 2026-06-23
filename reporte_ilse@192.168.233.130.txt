@@ -1,3 +1,0 @@
-Iniciando prueba remota...
-Hola desde debian!
-lun 22 jun 2026 21:19:33 CST
