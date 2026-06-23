@@ -16,6 +16,8 @@ do
 
     #Copia el script al equipo remoto mediante SCP
     scp "$script" "$host:/tmp/"
+
+    ssh "$host" "chmod +x /tmp/$(basename $script)"
     
     salida=$(ssh "$host" "bash /tmp/$(basename $script)")
 
