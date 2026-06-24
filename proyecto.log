@@ -1,0 +1,12 @@
+2026-06-23 13:11:00 - Usuario Ilse creado
+2026-06-23 13:11:30 - Contraseña modificada para Ilse
+2026-06-23 13:11:53 - Usuario Ilse eliminado
+mar 23 jun 2026 13:20:43 CST Respaldo generado: respaldo_20260623_132042.tar.gz
+mar 23 jun 2026 13:23:46 CST CPU:5 Disco:25
+mar 23 jun 2026 13:25:26 CST ssh : active
+mar 23 jun 2026 13:25:26 CST apache2 : active
+mar 23 jun 2026 13:25:26 CST cron : active
+mar 23 jun 2026 13:26:26 CST ssh : active
+mar 23 jun 2026 13:26:26 CST apache2 : active
+mar 23 jun 2026 13:26:26 CST cron : active
+mar 23 jun 2026 13:26:26 CST mariadb : inactive
